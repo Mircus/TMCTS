@@ -225,8 +225,12 @@ If you use TMCTS or reference this research, please cite the primary paper:
 
 ## 📄 License
 
-This research initiative and all code are licensed under the **MIT License**.
+This project is licensed under the **Holomathics Non-Commercial License (HNCL)**.
 
+- ✅ Free for academic research, education, and personal use
+- ❌ Commercial use requires separate licensing
+
+For commercial licensing inquiries, contact: [info@holomathics.com](mailto:info@holomathics.com)
 See [`Topological-MCTS-ARC-main/LICENSE`](Topological-MCTS-ARC-main/LICENSE) for details.
 
 ---
