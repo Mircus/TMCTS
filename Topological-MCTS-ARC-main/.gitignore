@@ -54,6 +54,7 @@ notebooks/
 # Local config
 .env
 *.local
+.claude/
 
 # Documentation/scratch files (keep only README.md and paper)
 ARC1_IMPLEMENTATION_STATUS.md
