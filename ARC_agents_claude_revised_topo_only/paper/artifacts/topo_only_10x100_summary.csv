@@ -1,3 +1,0 @@
-method,sims,time_s,success,quality
-MCTS (no canonicalization),15.7,0.0161057710647583,0.0,0.8314166666666667
-MCTS + symmetry canonicalization,27.8,0.004858088493347168,0.0,0.8314166666666667
