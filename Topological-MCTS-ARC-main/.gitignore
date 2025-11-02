@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Experiments (results, not code, but keep task data)
+experiments/*/results/
+experiments/figures/
+experiments/**/*.pyc
+# Keep ARC-1 task data but ignore large runtime files
+!experiments/ARC-1/selected_task_ids.json
+!experiments/ARC-1/selected_tasks.json
+
+# Notebooks (legacy)
+notebooks/
+
+# Local config
+.env
+*.local
+
+# Documentation/scratch files (keep only README.md and paper)
+ARC1_IMPLEMENTATION_STATUS.md
+IMPLEMENTATION_COMPLETE.md
+PAPER_SECTION_ARC1_EVALUATION.md
+QUICK_REFERENCE.md
+REAL_ARC_RESULTS_ANALYSIS.md
+report-for-gemini.md
+review-gemini.txt
+next-steps-gemini.txt
+gemini-final.txt
+
+# Keep
+!README.md
+!paper_camera_ready.tex
+!FINAL_SUMMARY.md
+!CONTRIBUTING.md

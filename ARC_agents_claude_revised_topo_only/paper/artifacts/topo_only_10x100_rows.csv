@@ -1,0 +1,21 @@
+task_id,method,sims,time_s,success,quality,solved
+0,MCTS (no canonicalization),1,0.0002799034118652344,0.0,0.9375,True
+1,MCTS (no canonicalization),4,0.00032520294189453125,0.0,0.9375,True
+2,MCTS (no canonicalization),7,0.1317431926727295,0.0,0.6666666666666666,True
+3,MCTS (no canonicalization),100,0.012761831283569336,0.0,0.6666666666666666,False
+4,MCTS (no canonicalization),1,9.584426879882812e-05,0.0,0.96,True
+5,MCTS (no canonicalization),1,5.030632019042969e-05,0.0,0.8888888888888888,True
+6,MCTS (no canonicalization),1,0.008362770080566406,0.0,0.8888888888888888,True
+7,MCTS (no canonicalization),11,0.002163410186767578,0.0,0.6666666666666666,True
+8,MCTS (no canonicalization),4,0.0001766681671142578,0.0,0.8888888888888888,True
+9,MCTS (no canonicalization),27,0.005098581314086914,0.0,0.8125,True
+0,MCTS + symmetry canonicalization,3,0.00021839141845703125,0.0,0.9375,True
+1,MCTS + symmetry canonicalization,3,0.0001628398895263672,0.0,0.9375,True
+2,MCTS + symmetry canonicalization,63,0.010325908660888672,0.0,0.6666666666666666,True
+3,MCTS + symmetry canonicalization,100,0.020049571990966797,0.0,0.6666666666666666,False
+4,MCTS + symmetry canonicalization,3,0.00015735626220703125,0.0,0.96,True
+5,MCTS + symmetry canonicalization,2,0.00010466575622558594,0.0,0.8888888888888888,True
+6,MCTS + symmetry canonicalization,2,0.0001087188720703125,0.0,0.8888888888888888,True
+7,MCTS + symmetry canonicalization,67,0.011435270309448242,0.0,0.6666666666666666,True
+8,MCTS + symmetry canonicalization,1,8.559226989746094e-05,0.0,0.8888888888888888,True
+9,MCTS + symmetry canonicalization,34,0.00593256950378418,0.0,0.8125,True

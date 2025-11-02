@@ -1,0 +1,21 @@
+
+[project]
+name = "topomcts"
+version = "0.1.0"
+description = "Topological MCTS for ARC-style tasks — clean, reproducible scaffold"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name="Mirco A. Mannucci" }, { name="Kishore" }]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "tqdm>=4.66"
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
