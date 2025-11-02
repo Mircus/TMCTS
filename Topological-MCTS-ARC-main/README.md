@@ -53,16 +53,53 @@ paper_camera_ready.tex         # Camera-ready paper for arXiv (includes Section 
 ## Installation & Testing
 
 ```bash
-# Install
-pip install -e .
+# Install dependencies
+pip install -r requirements.txt
 
-# Run all tests (should pass 63/63)
+# Run all unit tests (should pass 63/63)
 pytest tests/ -v
-
-# Run paper experiments
-python experiments/test_pattern_detection_accuracy.py
-python experiments/compare_mcts_topologies.py
 ```
+
+## How to Replicate Paper Results
+
+### 1. Synthetic Task Experiments (Section IV of Paper)
+
+**Pattern Detection Accuracy (100%):**
+```bash
+python experiments/test_pattern_detection_accuracy.py
+# Validates pattern detection on 48 synthetic tasks with exact match verification
+```
+
+**Topology Comparison (2.01× improvement):**
+```bash
+python experiments/compare_mcts_topologies.py
+# Compares topological MCTS vs. vanilla MCTS across synthetic puzzle variants
+# Output: Efficiency ratios, statistical significance, ablation analysis
+```
+
+### 2. Real ARC-1 Task Experiments (Section V.6 of Paper)
+
+**Run evaluation on 20 hand-selected real ARC tasks:**
+```bash
+cd experiments/ARC-1
+python run_real_arc_experiments.py
+# Output: results/real_arc_results.json and results/real_arc_results.csv
+# Reports: rollout efficiency (2.04× avg), quality metrics, per-task breakdown
+```
+
+**View experiment setup and task selection:**
+```bash
+# Task selection criteria & methodology:
+python experiments/ARC-1/select_arc_tasks.py
+
+# Test infrastructure on a single task:
+python experiments/ARC-1/test_single_task.py
+```
+
+**Data Used:**
+- `experiments/ARC-1/selected_task_ids.json` - 20 curated ARC-1 task IDs
+- `experiments/ARC-1/selected_tasks.json` - Full task data (inputs, outputs, metadata)
+- `experiments/ARC-1/results/` - Pre-computed results from paper evaluation
 
 ## What's Implemented
 
