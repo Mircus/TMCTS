@@ -1,19 +1,15 @@
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ████████╗███╗   ███╗ ██████╗████████╗███████╗                            ║
-║   ╚══██╔══╝████╗ ████║██╔════╝╚══██╔══╝██╔════╝                            ║
-║      ██║   ██╔████╔██║██║        ██║   ███████╗                            ║
-║      ██║   ██║╚██╔╝██║██║        ██║   ╚════██║                            ║
-║      ██║   ██║ ╚═╝ ██║╚██████╗   ██║   ███████║                            ║
-║      ╚═╝   ╚═╝     ╚═╝ ╚═════╝   ╚═╝   ╚══════╝                            ║
-║                                                                              ║
-║              Topological Monte Carlo Tree Search for ARC Tasks              ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+
+
+
+<p align="center">
+  <img src="TCMTS.png" alt="LOGAN Logo" width="600"/>
+</p>
+
+
 
 # TMCTS: Research Initiative on Topological Guidance for Search
+
+
 
 Welcome to the **Topological MCTS (TMCTS)** research initiative, a multi-year project exploring how solution space topology can guide search algorithms in abstract reasoning and constraint satisfaction tasks.
 
