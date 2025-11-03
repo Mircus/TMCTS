@@ -2,7 +2,7 @@
 
 A clean, production-ready implementation of topological Monte Carlo Tree Search using solution space topology (not grid topology) to guide search in puzzle-solving tasks.
 
-**Paper:** [The Wrong Topology: Why Grid Structure Fails, and How Solution Space Topology Guides Search](paper_camera_ready.tex)
+
 
 ## Quick Summary
 
