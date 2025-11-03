@@ -169,7 +169,7 @@ If you use TMCTS or reference this research, please cite the primary paper:
 
 ```bibtex
 @article{topologicalMCTS2025,
-  title={The Wrong Topology: Why Grid Structure Fails, and How Solution Space Topology Guides Search},
+  title={How Solution Space Topology Guides CMTS Search},
   author={[Author Names]},
   journal={arXiv preprint arXiv:[TBD]},
   year={2025}
@@ -182,7 +182,7 @@ If you use TMCTS or reference this research, please cite the primary paper:
 
 | Resource | Link |
 |----------|------|
-| **Paper** | [`paper_camera_ready.tex`](Topological-MCTS-ARC-main/paper_camera_ready.tex) |
+
 | **Implementation** | [`src/topomcts/`](Topological-MCTS-ARC-main/src/topomcts/) |
 | **Tests** | [`tests/`](Topological-MCTS-ARC-main/tests/) (63 tests) |
 | **Experiments** | [`experiments/`](Topological-MCTS-ARC-main/experiments/) |
@@ -207,10 +207,9 @@ If you use TMCTS or reference this research, please cite the primary paper:
 ## 💡 Key Files
 
 **Absolute essentials:**
-1. [`Topological-MCTS-ARC-main/paper_camera_ready.tex`](Topological-MCTS-ARC-main/paper_camera_ready.tex) — The research paper
-2. [`Topological-MCTS-ARC-main/src/topomcts/constraint_graph.py`](Topological-MCTS-ARC-main/src/topomcts/constraint_graph.py) — Core topology construction
-3. [`Topological-MCTS-ARC-main/src/topomcts/mcts.py`](Topological-MCTS-ARC-main/src/topomcts/mcts.py) — Topological MCTS algorithm
-4. [`Topological-MCTS-ARC-main/experiments/compare_mcts_topologies.py`](Topological-MCTS-ARC-main/experiments/compare_mcts_topologies.py) — Main validation
+1. [`Topological-MCTS-ARC-main/src/topomcts/constraint_graph.py`](Topological-MCTS-ARC-main/src/topomcts/constraint_graph.py) — Core topology construction
+2. [`Topological-MCTS-ARC-main/src/topomcts/mcts.py`](Topological-MCTS-ARC-main/src/topomcts/mcts.py) — Topological MCTS algorithm
+3. [`Topological-MCTS-ARC-main/experiments/compare_mcts_topologies.py`](Topological-MCTS-ARC-main/experiments/compare_mcts_topologies.py) — Main validation
 
 ---
 
