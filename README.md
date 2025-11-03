@@ -69,8 +69,8 @@ TMCTS/
 | Code quality | 1:1 production-to-test ratio |
 
 **Publication Status:**
-- 📄 Camera-ready paper: [`paper_camera_ready.tex`](Topological-MCTS-ARC-main/paper_camera_ready.tex)
-- 🎯 Target venues: arXiv, ICML, NeurIPS, ALENEX
+- 📄 draft paper https://www.researchgate.net/publication/397204556_Solution_Space_Topology_Guides_CMTS_Search
+- 🎯 Target venues: arXiv
 - 🔍 Peer review status: [To be updated]
 
 **How to Use:**
