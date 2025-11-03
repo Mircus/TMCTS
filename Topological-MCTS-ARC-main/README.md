@@ -47,7 +47,7 @@ figs/
 ├── fig2_lambda2_hist.pdf      # Algebraic connectivity distribution
 └── fig3_ablation.pdf          # Ablation study results
 
-paper_camera_ready.tex         # Camera-ready paper for arXiv (includes Section 5.6)
+
 ```
 
 ## Installation & Testing
