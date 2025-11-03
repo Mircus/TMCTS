@@ -35,7 +35,6 @@ TMCTS/
 │   │   ├── compare_mcts_topologies.py
 │   │   └── ARC-1/                      # Real ARC-1 evaluation (20 tasks)
 │   ├── figs/                           # Publication figures
-│   ├── paper_camera_ready.tex          # Camera-ready article
 │   └── README.md                       # How to run experiments and replicate results
 │
 ├── [Future variants will go here]
@@ -125,10 +124,6 @@ See [`Topological-MCTS-ARC-main/README.md`](Topological-MCTS-ARC-main/README.md)
 
 ## 📚 How to Navigate This Repository
 
-### For Reading the Paper
-- Start with: [`Topological-MCTS-ARC-main/paper_camera_ready.tex`](Topological-MCTS-ARC-main/paper_camera_ready.tex)
-- Published version: [To be added - arXiv link]
-- Preprint figures: [`Topological-MCTS-ARC-main/figs/`](Topological-MCTS-ARC-main/figs/)
 
 ### For Running Experiments
 - See: [`Topological-MCTS-ARC-main/README.md#how-to-replicate-paper-results`](Topological-MCTS-ARC-main/README.md)
